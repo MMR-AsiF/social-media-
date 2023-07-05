@@ -1,0 +1,219 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h4, h5, h6{
+	font-family: serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 1349px;
+	height: 250px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 75px;
+	left: 630px;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 255px;
+	right: -105px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.in{
+	width: 150px;
+	position: fixed;
+	top: 305px;
+	right: -105px;
+	transition: 1s;
+}
+.in:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.pin{
+	width: 150px;
+	position: fixed;
+	top: 355px;
+	right: -105px;
+	transition: 1s;
+}
+.pin:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.twiter{
+	width: 150px;
+	position: fixed;
+	top: 355px;
+	right: -105px;
+	transition: 1s;
+}
+.twiter:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.wa{
+	width: 150px;
+	position: fixed;
+	top: 455px;
+	right: -105px;
+	transition: 1s;
+}
+.wa:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.social-media{
+	width: 100%;
+	text-align: center;
+	padding: 200px 0px;
+}
+.social-media li{
+	list-style: none;
+	display: inline-block;
+}	
+.social-media li a{
+	display: block;
+}
+.social-media li a .fa-facebook{	
+    width: 90px;
+	height: 90px;
+	background: #1877F2;
+	color: #fff;
+	line-height: 90px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+	border: 1px solid #1877F2;
+}
+.social-media li a .fa-facebook:hover{
+	background: #fff;
+	color: #1877F2;
+	border: 1px solid #1877F2;
+}
+.social-media li a .fa-linkedin{	
+    width: 90px;
+	height: 90px;
+	background: #0077B5;
+	color: #fff;
+	border: 1px solid #0077B5;
+	line-height: 90px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-media li a .fa-linkedin:hover{
+	background: #fff;
+	color: #0077B5;
+	border: 1px solid #0077B5;
+}
+.social-media li a .fa-pinterest{	
+    width: 90px;
+	height: 90px;
+	background: #E8001E;
+	color: #fff;
+	border: 1px solid #E8001E;
+	line-height: 90px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-media li a .fa-pinterest:hover{
+	background: #fff;
+	color: #E8001E;
+	border: 1px solid #E8001E;
+}
+.social-media li a .fa-twitter{	
+    width: 90px;
+	height: 90px;
+	background: #1DA1F2;
+	color: #fff;
+	border: 1px solid #1DA1F2;
+	line-height: 90px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-media li a .fa-twitter:hover{
+	background: #fff;
+	color: #1DA1F2;
+	border: 1px solid #1DA1F2;
+}
+.social-media li a .fa-whatsapp{	
+    width: 90px;
+	height: 90px;
+	background: #25D366;
+	color: #fff;
+	border: 1px solid #25D366;
+	line-height: 90px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-media li a .fa-whatsapp:hover{
+	background: #fff;
+	color: #25D366;
+	border: 1px solid #25D366;
+}
+.social-media li a .fa-instagram{	
+    width: 90px;
+	height: 90px;
+	background: #9724A2;
+	color: #fff;
+	border: 1px solid #9724A2;
+	line-height: 90px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-media li a .fa-instagram:hover{
+	background: #fff;
+	color: #9724A2;
+	border: 1px solid #9724A2;
+}
+.social-media li a .fa-envelope{	
+    width: 90px;
+	height: 90px;
+	background: #F29100;
+	color: #fff;
+	border: 1px solid #F29100;
+	line-height: 90px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-media li a .fa-envelope:hover{
+	background: #fff;
+	color: #F29100;
+	border: 1px solid #F29100;
+}
